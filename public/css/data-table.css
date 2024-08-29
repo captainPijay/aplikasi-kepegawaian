@@ -1,0 +1,64 @@
+th {
+    color: #464f60 !important;
+    font-family: Inter !important;
+    font-size: 11px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 16px !important;
+    letter-spacing: 0.44px !important;
+    text-transform: uppercase !important;
+    text-align: center !important;
+}
+tbody {
+    color: #171c26 !important;
+    font-family: Inter !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    line-height: 20px !important;
+    letter-spacing: 0.28px !important;
+    text-align: center !important;
+}
+.dt-length {
+    column-gap: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+
+    color: #687182 !important;
+    text-align: right !important;
+    font-family: Inter !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 18px !important;
+    letter-spacing: 0.36px !important;
+}
+.dt-info {
+    color: #687182;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+}
+.dropdownListButton {
+    color: var(--Text, #151515) !important;
+    font-variant-numeric: lining-nums tabular-nums !important;
+    font-family: Inter !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 20px !important;
+    background: #fff !important;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.02),
+        0px 2px 4px 0px rgba(0, 0, 0, 0.08) !important;
+}
+.listItemsTableAction {
+    padding: 4px !important;
+}
+.btnActionTable {
+    width: 100% !important;
+    text-align: start !important;
+}
+.btnActionTable:hover {
+    background-color: rgba(171, 171, 171, 0.451) !important;
+}

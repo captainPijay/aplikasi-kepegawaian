@@ -1,0 +1,163 @@
+/* -------------------------------------------------------------------------- */
+/*                     Start custom styling for upload image page                    */
+/* -------------------------------------------------------------------------- */
+.wrapperInput {
+    border-radius: 6px;
+    border: 1px solid #c4cdd5;
+    width: 394px;
+    height: 218px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.progress {
+    background-color: white !important;
+}
+
+.progress-bar {
+    border-radius: 100px !important;
+    background: var(
+        --default,
+        linear-gradient(93deg, #4ed1fa 0.43%, #2e8ae6 95.19%)
+    ) !important;
+}
+
+.titleFile {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.28px;
+    margin: auto 0;
+}
+
+.iconClear {
+    font-size: 24px;
+    flex-shrink: 0;
+}
+
+.uploaded-area {
+    display: grid;
+    row-gap: 15px;
+    margin-top: 19px;
+}
+
+.wrapperItem {
+    border-radius: 6px;
+    background: rgba(46, 138, 230, 0.15);
+    padding: 10px;
+}
+
+.textDropHere {
+    color: var(--Gray-900, #171c26);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.28px;
+    text-align: center;
+}
+
+.textOr {
+    color: #c4cdd5;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.28px;
+    margin-top: 5px;
+    margin-bottom: 7px !important;
+    text-align: center;
+}
+
+.textSaran {
+    color: var(--Gray-900, #171c26);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.28px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.btnBrowseImg {
+    border-radius: 5px;
+    border: 1px solid #2e8ae6;
+    padding: 10px 30px;
+    color: #2e8ae6;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.28px;
+    background-color: transparent;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.btnBrowseImg:hover {
+    background-color: #6caae726;
+}
+
+.formImage {
+    cursor: pointer;
+}
+
+.file-input {
+    background-color: #000 !important;
+}
+
+.progress-js {
+    width: 0%;
+    animation-name: addProgress;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes addProgress {
+    0% {
+        width: 0%;
+    }
+
+    25% {
+        width: 25%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    75% {
+        width: 75%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes hideBarProgress {
+    100% {
+        display: none;
+    }
+}
+
+.buttonSimpanData {
+    margin-top: 48px;
+    border: none;
+}
